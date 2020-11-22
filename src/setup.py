@@ -9,6 +9,6 @@ setup(
                       ],
     entry_points={
         'console_scripts': [
-            'simplelayout=simplelayout:main',
+            'simplelayout=simplelayout.__main__:main',
         ]},
 )

@@ -10,6 +10,8 @@ Welcome to simplelayout's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   help
+
 
 
 Indices and tables
