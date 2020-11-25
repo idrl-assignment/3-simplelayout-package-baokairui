@@ -20,3 +20,8 @@ python simplelayout.py --board_grid 100 --unit_grid 10 --unit_n 3 --positions 1 
 - `-o 或者 --outdir`: str，输出结果的目录，默认为当前目录下的 `example_dir` 目录；若目录不存在程序会自行创建，支持跨平台路径
 - `--file_name`: str，输出文件名（不包括文件类型后缀），默认为 `example`
 
+## 生成图片示例
+
+​	根据上述参数，在命令行接口输入指令时会根据指令产生相应的图片，具体示例如下：
+
+![](https://i.loli.net/2020/11/25/fliP5ZeFCm2gpVn.png)

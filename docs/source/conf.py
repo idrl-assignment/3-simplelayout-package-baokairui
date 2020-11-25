@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'simplelayout'
+project = 'Simple Layout'
 copyright = '2020, baokairui'
 author = 'baokairui'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0'
+release = '1.1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -30,8 +30,7 @@ release = '0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['recommonmark']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -41,7 +40,7 @@ templates_path = ['_templates']
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'CN'
+language = '**zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -60,4 +59,3 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-extensions = ['recommonmark']
